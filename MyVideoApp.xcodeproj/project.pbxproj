@@ -14,6 +14,8 @@
 		0DB509311B2A1ECA0046E136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB509301B2A1ECA0046E136 /* Images.xcassets */; };
 		0DB509341B2A1ECA0046E136 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DB509321B2A1ECA0046E136 /* LaunchScreen.xib */; };
 		0DB509401B2A1ECA0046E136 /* MyVideoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5093F1B2A1ECA0046E136 /* MyVideoAppTests.swift */; };
+		0DB5094C1B2A21C10046E136 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5094B1B2A21C10046E136 /* VideoTableViewController.swift */; };
+		0DB5094E1B2A22F60046E136 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5094D1B2A22F60046E136 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		0DB509391B2A1ECA0046E136 /* MyVideoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyVideoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB5093E1B2A1ECA0046E136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DB5093F1B2A1ECA0046E136 /* MyVideoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVideoAppTests.swift; sourceTree = "<group>"; };
+		0DB5094B1B2A21C10046E136 /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		0DB5094D1B2A22F60046E136 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				0DB509261B2A1EC90046E136 /* AppDelegate.swift */,
 				0DB5092B1B2A1ECA0046E136 /* ViewController.swift */,
 				0DB5092D1B2A1ECA0046E136 /* Main.storyboard */,
+				0DB5094D1B2A22F60046E136 /* MainViewController.swift */,
+				0DB5094B1B2A21C10046E136 /* VideoTableViewController.swift */,
 				0DB509301B2A1ECA0046E136 /* Images.xcassets */,
 				0DB509321B2A1ECA0046E136 /* LaunchScreen.xib */,
 				0DB509281B2A1ECA0046E136 /* MyVideoApp.xcdatamodeld */,
@@ -218,6 +224,8 @@
 				0DB5092C1B2A1ECA0046E136 /* ViewController.swift in Sources */,
 				0DB509271B2A1EC90046E136 /* AppDelegate.swift in Sources */,
 				0DB5092A1B2A1ECA0046E136 /* MyVideoApp.xcdatamodeld in Sources */,
+				0DB5094C1B2A21C10046E136 /* VideoTableViewController.swift in Sources */,
+				0DB5094E1B2A22F60046E136 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
